@@ -1,3 +1,7 @@
 .sm-cpanel-btn {
     padding: 0.2em 0.5em;
 }
+
+.sm-cpanel-btn:focus {
+    outline: none;
+}
