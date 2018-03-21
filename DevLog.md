@@ -70,4 +70,7 @@
     2. [x] ~~第二种是创建一个 `ElementControl` 对象，在每次点击元素时，将 `this` 作用域绑定到该元素对象，然后初始化启动。可参考 `Pell` 项目~~。
 
 * [ ] 元素控制面板
-    1. [ ] 工具栏应该跟随元素的移动二移动
+    1. [x] 工具栏应该跟随元素的移动二移动
+    2. [ ] `Draggable`: Snap to element or grid 对齐功能
+    3. [ ] 实现元素包含关系间的`Droppable`： `dragable`的`revert position`
+    4. [ ] 实现段落之间的`Sortable`: `Draggable` + `Sortable`
