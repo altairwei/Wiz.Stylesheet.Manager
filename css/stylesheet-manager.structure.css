@@ -5,3 +5,7 @@
 .sm-cpanel-btn:focus {
     outline: none;
 }
+
+.sm-elctrl-el-active {
+    box-shadow: 0 0 2px 2px #A5C7FE inset !important;
+}
