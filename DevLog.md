@@ -18,7 +18,7 @@
 
 * [ ] 代码高亮采用 Google Code Prettify 库
 
-## 3 动态布局
+## 3 动态排版
 
 ### 3.1 交互功能
 
@@ -74,3 +74,6 @@
     2. [ ] `Draggable`: Snap to element or grid 对齐功能
     3. [ ] 实现元素包含关系间的`Droppable`： `dragable`的`revert position`
     4. [ ] 实现段落之间的`Sortable`: `Draggable` + `Sortable`
+    5. [ ] 模拟Onenote的容器功能
+    6. [ ] `Draggabele` 实现横向移动和纵向移动以及自由移动三种模式。
+    7. [ ] 展示内联样式及修改能力
