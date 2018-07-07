@@ -15,7 +15,14 @@ function WizConfirm(msg) {
 (function() {
     let objBrowser = objWindow.CurrentDocumentBrowserObject;
     objBrowser.ExecuteScriptFile(pluginPath + "lib/jQuery/jquery-3.3.1.min.js", function(ret) {
-        const code = `$('body').css('max-width', '800px').css('margin-left', 'auto').css('margin-right', 'auto')`
+        const code = `
+        $('body').css('max-width', '820px')
+                    .css('margin', '40px auto')
+                    .css('padding', '48px 60px')
+                    .css('min-height', 'calc(100% - 80px)');
+        $('html').css('height', '100%')
+                    .css('background-color', '#f0f2f4');
+        `
         objBrowser.ExecuteScript(code, null);
     })
 })()
