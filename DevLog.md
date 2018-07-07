@@ -14,12 +14,12 @@
 
 ### 2.2 CSS的格式化与压缩
 
-* [ ] 参考 [用原生JS进行CSS格式化和压缩](https://www.cnblogs.com/artwl/archive/2012/03/25/2416909.html)
+* [ ] 使用 `js-beautify` 库，并在 `CodeMirror` 里面显示
 * [ ] 创建一个Widget：默认元素是一个 `<div>` 元素，拥有 `contenteditable="true"` 的属性，对其进行组件化，绑定CSS格式化和压缩的功能。
 
 ### 2.3 代码高亮
 
-* [ ] 代码高亮采用 Google Code Prettify 库
+* [ ] 代码高亮采用 Google Code Prettify 库，还有一个 Prettier 库
 
 ## 3 动态排版
 
