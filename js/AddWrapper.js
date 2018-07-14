@@ -19,7 +19,8 @@ function WizConfirm(msg) {
         $('body').css('max-width', '820px')
                     .css('margin', '40px auto')
                     .css('padding', '48px 60px')
-                    .css('min-height', 'calc(100% - 80px)');
+                    .css('min-height', 'calc(100% - 80px)')
+                    .css('box-sizing', 'content-box');
         $('html').css('height', '100%')
                     .css('background-color', '#f0f2f4');
         `
